@@ -59,8 +59,8 @@ export default function Home() {
       setTimeout(() => {
         setQuote(getRandomQuote());
         setFade(false);
-      }, 500); // Duration of the fade-out effect
-    }, 6000); // Fetch a new quote every minute
+      }, 500); 
+    }, 6000); 
 
     return () => clearInterval(interval);
   }, []);
